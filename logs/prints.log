@@ -1,0 +1,5 @@
+16:45:57.580 [main] INFO  Selenium.LoginTest - Successfull login
+16:46:19.201 [main] INFO  Selenium.HomePageTest - Successful login
+16:46:20.124 [main] INFO  Selenium.HomePageTest - in home page
+16:46:21.125 [main] INFO  Selenium.HomePageTest - In profile page
+16:46:26.973 [main] INFO  Selenium.HomePageTest - frase existente

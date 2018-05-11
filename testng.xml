@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+       <listener class-name="Selenium.Listeners" />
+        <listener class-name="Resources.ExtentReporterNG" />
+    </listeners>
+    <test name="Testlogin">
+    		<classes>
+      		<class name="Selenium.LoginTest"/>
+    		</classes>
+   </test> 
+   <test name="Testhome">
+    		<classes>
+      		<class name="Selenium.HomePageTest"/>
+    		</classes>
+   </test> 
+   <test name="Testasset">
+    		<classes>
+     		<class name="Selenium.LoginPageAssertionsTest"/>
+    		</classes>
+   </test> <!-- Test -->
+</suite> <!-- Suite -->

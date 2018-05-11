@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Selenium.Listeners"/>
+  </listeners>
+  <test name="Testhome(failed)">
+    <classes>
+      <class name="Selenium.LoginTest">
+        <methods>
+          <include name="CloseDriver"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- Selenium.LoginTest -->
+      <class name="Selenium.HomePageTest">
+        <methods>
+          <include name="CloseDriver"/>
+          <include name="openProfile"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- Selenium.HomePageTest -->
+      <class name="Selenium.LoginPageAssertionsTest">
+        <methods>
+          <include name="CloseDriver"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- Selenium.LoginPageAssertionsTest -->
+    </classes>
+  </test> <!-- Testhome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

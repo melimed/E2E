@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Selenium.LoginTest">
+        <methods>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- Selenium.LoginTest -->
+      <class name="Selenium.LoginPageAssertionsTest">
+        <methods>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- Selenium.LoginPageAssertionsTest -->
+      <class name="Selenium.HomePageTest">
+        <methods>
+          <include name="CloseDriver"/>
+          <include name="openProfile"/>
+          <include name="Init"/>
+        </methods>
+      </class> <!-- Selenium.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
